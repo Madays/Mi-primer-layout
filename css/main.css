@@ -1,0 +1,103 @@
+/* Ingresa tu css aqui outline: 1px solid red; */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Oswald');
+
+.container { 
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+header,h3 {
+    font-family: 'Montserrat', sans-serif;    
+}
+/*----------------------------header*/
+header img {
+        width: 100%;
+}
+header hr {
+    width: 100%;
+    border: solid 1px lightblue;
+}
+ul.menu {
+    list-style: none;    
+}
+ul.menu li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+}
+ul.menu li a:hover {
+    background: rgba(244, 122, 0, 0.8);
+    color: #fff;
+}
+.menu li {    
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 25px;
+}
+.menu li:after {
+    content: "|";
+}
+.menu li:last-child:after {
+    content: "";    
+}
+/*--------------------------END--header*/
+/*ul.menu li:nth-child(1){border-right: solid 1px black}
+ul.menu li:nth-child(2){border-right: solid 1px black}
+ul.menu li:nth-child(3){border-right: solid 1px black}*/
+/*-------------------Section main--*/
+section.main {
+    margin: 30px auto 0 auto;
+    text-align: center;    
+}
+section.main p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 80px;
+}
+section.main img {
+    width: 100%;
+}
+#hrArriba,#hrAbajo {
+    margin-top: 30px;
+    width: 60px;
+    border: solid 2px lightblue;
+}
+/*---------------------END---Section main--*/
+/*-------------container_nuestras_coders--*/
+#nuestras_coders_titulo{
+    position: absolute;
+}
+#hr_nuestras_coders {
+    position: absolute;
+    width: 60px;
+    border: solid 2px lightblue;  
+    text-align: left;
+    top: 50px;
+}
+section.container_nuestras_coders {
+    position: relative;
+}
+section.container_nuestras_coders lu{
+    position: relative;
+    top: 100px; 
+    list-style: none;
+    padding: 0;
+}
+
+section.container_nuestras_coders lu li {
+    position: relative;
+    display: inline-block;
+}
+section.container_nuestras_coders lu li img {
+    display: block;
+}
+section.container_nuestras_coders lu li span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    z-index: 10;
+}
+/*----------END---container_nuestras_coders--*/
+
+

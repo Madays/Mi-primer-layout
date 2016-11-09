@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Oswald');
+
+.img_name_coders p, h3 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: solid 4px rgb(54, 169, 211);
+    padding: 20px 0;
+}
+section.img_name_coders {
+    
+    position: relative;
+    display: inline-block;
+}
+
+
+div.img_name_coders p,.habilidades {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 30px;
+        color: #000;
+}
+section.img_name_coders article {
+    text-align: justify;
+    padding: 0 40px;
+}
+
+section.img_name_coders img {
+    border-radius: 100%;
+    margin: 0 auto;
+}
+h3 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.habilidades p {
+    background: grey;    
+    margin: 10px;  
+    text-align: left;
+    padding: 20px 0;
+}
+.habilidades p:nth-child(1){width: 80%;}
+.habilidades p:nth-child(2){width: 50%;}
+.habilidades p:nth-child(3){width: 20%;min-width:130px;}
+
+section.img_portafolio {
+        
+}
+
+div.container_portafolio {
+    display: inline-block;
+    width: 30%;    
+}
+.container_portafolio img {
+    width: 100%;    
+}
+}
+div.habilidades {
+    padding-left: 30px;
+}
